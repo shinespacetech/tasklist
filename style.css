@@ -1,0 +1,11 @@
+.Task{border : 1px solid lightgreen;padding: 10px;text-align: center;font-size: 17px;border-radius: 5px;margin: 10px;}
+.TaskRead{border : 1px solid lightgray;text-decoration-line: line-through;}
+@media only screen and (max-width: 730px) {
+  .container{padding: 10px;margin-left:10%;margin-right:10%;text-align: center; }
+}
+@media only screen and (min-width: 731px) and (max-width: 1200px) {
+  .container{padding: 10px 10% 10px 10%;text-align: center;  }
+}
+@media only screen and (min-width: 1201px) {
+  .container{padding: 10px 20% 10px 20%;text-align: center; }
+}
